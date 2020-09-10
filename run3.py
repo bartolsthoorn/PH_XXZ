@@ -12,11 +12,11 @@ parser.add_argument('--d', type=int, default=1, help='dimension of homology grou
 opt = parser.parse_args()
 print(opt)
 
-filename = 'snapshots_6_100000_32_global_barcodes_32.p'
+filename = 'snapshots_4_100000_32_global_barcodes_32.p'
 barcodes = pickle.load(open(filename, 'rb' ))
 #barcodes = [[np.array(b_dim) for b_dim in b] for b in barcodes]
 Hdim = opt.d
-SW_M = 40 # 30
+SW_M = 40
 m = len(barcodes)
 distance_matrix = np.zeros((m,m))
 i_j = []

@@ -12,7 +12,7 @@
     using ProgressMeter
     using HDF5
 
-    const L = 6
+    const L = 4
     const N = 16*(L^3)
 
     const nsamples = 32#56

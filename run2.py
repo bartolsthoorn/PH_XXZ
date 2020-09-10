@@ -11,10 +11,10 @@ import gudhi as gd
 import pickle
 import persim
 
-#filename = 'snapshots_4_100000_32.hdf5'
-filename = 'snapshots_6_100000_32.hdf5'
+filename = 'snapshots_4_100000_32.hdf5'
+#filename = 'snapshots_6_100000_32.hdf5'
 f = h5py.File(filename, 'r')
-L = 6
+L = 4
 N = L*L*L*16
 
 spins_type = 'global'
