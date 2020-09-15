@@ -1,6 +1,6 @@
-# PH_XXZ
-Code of the article "Finding hidden order in spin models with persistent homology"
+# Finding hidden order in spin models with persistent homology
+Code used in the article "Finding hidden order in spin models with persistent homology"
 
 Run the code in order: run1.jl, run2.py and run3.py.
 
-Arxiv link will be added here soon.
+arXiv: [\[2009.05141\] Finding hidden order in spin models with persistent homology](https://arxiv.org/abs/2009.05141)
